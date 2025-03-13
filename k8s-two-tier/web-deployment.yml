@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: tracker-pod
-        image: swayamnakshane/expenseapp
+        image: swayamnakshane/expenseapp:latest
         ports:
           - containerPort: 8080
         env:
